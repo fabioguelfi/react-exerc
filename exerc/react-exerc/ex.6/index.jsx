@@ -4,9 +4,7 @@ import Family from './family'
 import Member from './member'
 
 ReactDom.render(
-    <Family lastName="Guelfi">
-        <Member name="Fabio" />
-        <Member name="Rodrigo" />
-        <Member name="Betyna" />
+    <Family>
+        <Member name="Fabio" lastName="Guelfi" />
     </Family>
 , document.getElementById('app'))
