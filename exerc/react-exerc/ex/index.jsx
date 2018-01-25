@@ -1,7 +1,7 @@
 import React from 'react'
-import ReactDom from 'react-dom'
-import ClassComponente from './classComponent'
+import ReactDOM from 'react-dom'
+import Field from './field'
 
-ReactDom.render(
-    <ClassComponente value={10}></ClassComponente>
-, document.getElementById('app'))
+ReactDOM.render(
+    <Field initialValue="guelfi" />
+    , document.getElementById('app'))
